@@ -8,9 +8,10 @@ GmSSL是由北京大学自主开发的国产商用密码开源库，实现了对
 
 该库主要是针对其常用的加解密接口做了 WebAssembly 的封装
 
-1. 首先需要安装 (Emscripten)[https://emscripten.org/docs/getting_started/downloads.html]
-2. mkdir build_wasm
-3. cd build_wasm
-4. emcmake cmake ..
+1. 首先需要安装 [Emscripten](https://emscripten.org/docs/getting_started/downloads.html)
+2. 确保已经加载了 emscripten 环境
+3. mkdir build_wasm
+4. cd build_wasm
+5. emcmake cmake ..
 
 然后参考 wasm 目录中的 example
